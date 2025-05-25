@@ -11,7 +11,8 @@ from src.Map import Map
 from src.Animal import Animal
 from src.Simulation import Simulation
 
-def setup_animal_kingdom(map_size, animals_config):
+def setup_animal_kingdom(map_size, animals_config_obj):
+
     species_all = {}
     list_of_animals_all = []
     for animal_config in animals_config_obj:
